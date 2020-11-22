@@ -1,3 +1,8 @@
+# 2.0.0
+This release is breaking.
+* Changed main branch from `master` to `main`
+* `#[no_std]`-support
+
 # 1.0.0
 Don't expose SpiDev rate anymore. There is now a nice wrapper struct called `WS28xxAdapter`.
 New minimal code:
